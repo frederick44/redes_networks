@@ -26,6 +26,7 @@ while(B3!=0 && B3!=1){
 t=floor(A3/B3);
 
 if(t<0){
+
 R=(int) t;
 R=R-1;
 }
@@ -120,6 +121,12 @@ result=suma%todo;
 printf("\n");
 printf("la suma es %d \n",suma);
 printf("el resultado es: %d \n",result);
+
+
+free(residuos);
+free(modulos);
+free(inversos);
+free(numeros);
 
 return 0;
 
